@@ -1,3 +1,5 @@
+![Workflow thumbnail](assets/thumbnail.webp)
+
 ![Workflow thumbnail](assets/thumbnail.svg)
 
 ![n8n](https://img.shields.io/badge/n8n-workflow-0EA5E9)
@@ -18,7 +20,6 @@ Transform audio files into searchable knowledge with automated transcription, su
 
 ## Included Files
 - `workflow.json`
-- `metadata.json`
 
 ## Setup
 1. Import `workflow.json` into n8n.
@@ -47,6 +48,14 @@ Transform audio files into searchable knowledge with automated transcription, su
 ## Author
 
 Murtaza Baig
+
+## Screenshots
+
+![Screenshot](assets/10404-export-icon-metadata-from-iconfinder-to-html---csv-with-previews.webp)
+![Screenshot](assets/5449-automate-sales-cold-calling-pipeline-with-apify--gpt-4o--and-whatsapp.webp)
+![Screenshot](assets/Screenshot_2025_06_29_at_15_43_00_b539ee8b6f.png)
+![Screenshot](assets/n8nworfklows.webp)
+![Screenshot](assets/thumbnail.webp)
 
 ## License
 MIT License. See `LICENSE`.
