@@ -1,3 +1,5 @@
+![Workflow thumbnail](assets/thumbnail.svg)
+
 ![n8n](https://img.shields.io/badge/n8n-workflow-0EA5E9)
 ![license](https://img.shields.io/badge/license-MIT-green)
 ![status](https://img.shields.io/badge/status-ready-brightgreen)
@@ -23,6 +25,28 @@ Transform audio files into searchable knowledge with automated transcription, su
 2. Configure required credentials for the services used in the workflow nodes.
 3. Update any environment variables or static values inside nodes (API keys, URLs, IDs).
 4. Run a test execution and then activate the workflow.
+
+## Tech Stack
+
+- `@n8n/n8n-nodes-langchain.agent`
+- `@n8n/n8n-nodes-langchain.chatTrigger`
+- `@n8n/n8n-nodes-langchain.documentDefaultDataLoader`
+- `@n8n/n8n-nodes-langchain.embeddingsGoogleGemini`
+- `@n8n/n8n-nodes-langchain.lmChatGoogleGemini`
+- `@n8n/n8n-nodes-langchain.memoryBufferWindow`
+- `@n8n/n8n-nodes-langchain.textSplitterRecursiveCharacterTextSplitter`
+- `@n8n/n8n-nodes-langchain.vectorStorePinecone`
+- `n8n-nodes-base.convertToFile`
+- `n8n-nodes-base.formTrigger`
+- `n8n-nodes-base.googleSheets`
+- `n8n-nodes-base.httpRequest`
+- `n8n-nodes-base.if`
+- `n8n-nodes-base.stickyNote`
+- `n8n-nodes-base.wait`
+
+## Author
+
+Murtaza Baig
 
 ## License
 MIT License. See `LICENSE`.
